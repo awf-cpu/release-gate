@@ -1,0 +1,10 @@
+[project]
+name = "release-gate"
+version = "0.1.0"
+description = "Deploy gate: tests, mutation testing, atomic release, smoke check and automatic rollback"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
